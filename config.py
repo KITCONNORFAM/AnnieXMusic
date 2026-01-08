@@ -8,19 +8,19 @@ from pyrogram import filters
 load_dotenv()
 
 # ── Core bot config ────────────────────────────────────────────────────────────
-API_ID = int(getenv("API_ID", 27798659))
-API_HASH = getenv("API_HASH", "26100c77cee02e5e34b2bbee58440f86")
+API_ID = int(getenv("API_ID", 32665855))
+API_HASH = getenv("API_HASH", "e3e258b51657ee3bec4dc509841f3c22")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
-OWNER_ID = int(getenv("OWNER_ID", 7044783841))
+OWNER_ID = int(getenv("OWNER_ID", 8026543209))
 OWNER_USERNAME = getenv("OWNER_USERNAME", "CertifiedCoder")
-BOT_USERNAME = getenv("BOT_USERNAME", "AnnieXRobot")
-BOT_NAME = getenv("BOT_NAME", "˹𝐀ɴɴɪᴇ ✘ 𝙼ᴜsɪᴄ˼ ♪")
-ASSUSERNAME = getenv("ASSUSERNAME", "musicxannie")
+BOT_USERNAME = getenv("BOT_USERNAME", "anya_music69bot")
+BOT_NAME = getenv("BOT_NAME", "✨ 𝓐𝓝𝓨𝓐 𝓜𝓤𝓢𝓘𝓒 ✨")
+ASSUSERNAME = getenv("ASSUSERNAME", "anyafam")
 
 # ── Database & logging ─────────────────────────────────────────────────────────
 MONGO_DB_URI = getenv("MONGO_DB_URI")
-LOGGER_ID = int(getenv("LOGGER_ID", -1002014167331))
+LOGGER_ID = int(getenv("LOGGER_ID", -1003672520098))
 
 # ── Limits (durations in min/sec; sizes in bytes) ──────────────────────────────
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
@@ -31,7 +31,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1288490189"))
 PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "30"))
 
 # ── External APIs ──────────────────────────────────────────────────────────────
-COOKIE_URL = getenv("COOKIE_URL")  # required (paste link)
+COOKIE_URL = getenv("https://files.catbox.moe/vl0z93.txt")  # required (paste link)
 API_URL = getenv("API_URL")        # optional
 VIDEO_API_URL = getenv("VIDEO_API_URL")  # optional
 API_KEY = getenv("API_KEY")        # optional
@@ -47,8 +47,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN")  # needed if repo is private
 
 # ── Support links ──────────────────────────────────────────────────────────────
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/CertifiedNetwork")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/CertifiedDiscussion")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/midknightwarrior")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/anyasupportfam")
 
 # ── Assistant auto-leave ───────────────────────────────────────────────────────
 AUTO_LEAVING_ASSISTANT = False
@@ -78,7 +78,7 @@ STICKERS = [
     "CAACAgUAAx0Cd6nKUAACASBl_rnalOle6g7qS-ry-aZ1ZpVEnwACgg8AAizLEFfI5wfykoCR4h4E",
     "CAACAgUAAx0Cd6nKUAACATJl_rsEJOsaaPSYGhU7bo7iEwL8AAPMDgACu2PYV8Vb8aT4_HUPHgQ",
 ]
-HELP_IMG_URL = "https://files.catbox.moe/yg2vky.jpg"
+HELP_IMG_URL = "https://graph.org/file/1b6fedbf5958bcbff39cb-09b1a0d42953c86eab.jpg"
 PING_VID_URL = "https://files.catbox.moe/3ivvgo.mp4"
 PLAYLIST_IMG_URL = "https://files.catbox.moe/yhaja5.jpg"
 STATS_VID_URL = "https://telegra.ph/file/e2ab6106ace2e95862372.mp4"
