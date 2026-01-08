@@ -16,7 +16,7 @@ OWNER_ID = int(getenv("OWNER_ID", 8026543209))
 OWNER_USERNAME = getenv("OWNER_USERNAME", "CertifiedCoder")
 BOT_USERNAME = getenv("BOT_USERNAME", "anya_music69bot")
 BOT_NAME = getenv("BOT_NAME", "✨ 𝓐𝓝𝓨𝓐 𝓜𝓤𝓢𝓘𝓒 ✨")
-ASSUSERNAME = getenv("ASSUSERNAME", "anyafam")
+ASSUSERNAME = getenv("ASSUSERNAME", "anya_music69bot")
 
 # ── Database & logging ─────────────────────────────────────────────────────────
 MONGO_DB_URI = getenv("MONGO_DB_URI")
