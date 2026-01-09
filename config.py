@@ -13,10 +13,10 @@ API_HASH = getenv("API_HASH", "e3e258b51657ee3bec4dc509841f3c22")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 OWNER_ID = int(getenv("OWNER_ID", 8026543209))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "CertifiedCoder")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "atharvasharmafam")
 BOT_USERNAME = getenv("BOT_USERNAME", "anya_music69bot")
 BOT_NAME = getenv("BOT_NAME", "✨ 𝓐𝓝𝓨𝓐 𝓜𝓤𝓢𝓘𝓒 ✨")
-ASSUSERNAME = getenv("ASSUSERNAME", "anya_music69bot")
+ASSUSERNAME = getenv("ASSUSERNAME", "anyafam")
 
 # ── Database & logging ─────────────────────────────────────────────────────────
 MONGO_DB_URI = getenv("MONGO_DB_URI")
@@ -31,7 +31,22 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1288490189"))
 PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "30"))
 
 # ── External APIs ──────────────────────────────────────────────────────────────
-COOKIE_URL = getenv("https://files.catbox.moe/vl0z93.txt")  # required (paste link)
+COOKIE_URL = getenv("# Netscape HTTP Cookie File
+# https://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file! Do not edit.
+
+.youtube.com	TRUE	/	TRUE	1802413702	PREF	tz=Asia.Calcutta&f7=100
+.youtube.com	TRUE	/	TRUE	1801038763	__Secure-3PAPISID	h2Ys5lNqL-aMgkPw/AgzDdhRzbHicbWR-y
+.youtube.com	TRUE	/	TRUE	1801038763	__Secure-3PSID	g.a0004gi_E0gJAp2ctwOiIv6vmzptBy8VANIoI-hJ1YjkcpgayaoftVABdHHO4FB3DU8N5PHXRgACgYKAYwSARASFQHGX2MiHyUvsxIyXfX0SHafNJYYPRoVAUF8yKonEHW7QxcjKTcCrt6CNQD80076
+.youtube.com	TRUE	/	TRUE	1801038763	LOGIN_INFO	AFmmF2swRQIhAKZIdSTOTMG-nYddORkuuwH4pwnTBmiUnPwDzqRdU9MsAiAQ5RKA3jdT9jfM2xuY0RyMHgkECRTlWvDvL8WqPuVPdg:QUQ3MjNmd2Z0V3Jfa0hkbUxVSkxrNFROZXRUNFd2WGxNUjFzQjFmRWFFaDJwaS11MEwxSDlDc2pHZU9GcnJsWkNRZ1BnTGljUzhlYXR6cGE0dHpFRVVVRURlOTFZencyUG9VU2NHczdWWWRRcGpGdTNnT3JGUUJZYWNuNFc1LU1FWGFjemtaU2ZiYm1PTkl5X1h6SG5udzlObHBnRk43b0Vn
+.youtube.com	TRUE	/	TRUE	1799390317	__Secure-1PSIDTS	sidts-CjQBflaCdbefF2F7DAaqQ5-_m-NfEeDUt-wDhykwynd4ArL4gT9gRN6itBmzqRUTrY1UPCd5EAA
+.youtube.com	TRUE	/	TRUE	1799390317	__Secure-3PSIDTS	sidts-CjQBflaCdbefF2F7DAaqQ5-_m-NfEeDUt-wDhykwynd4ArL4gT9gRN6itBmzqRUTrY1UPCd5EAA
+.youtube.com	TRUE	/	TRUE	1799483524	__Secure-3PSIDCC	AKEyXzV1eXpObPzJNg1CRg3BxnhX6pJDKmXQCmx-Pvoej2dS8YyYgog9a0deKriiWVIefM-SIQ
+.youtube.com	TRUE	/	TRUE	1783499524	VISITOR_INFO1_LIVE	uY_0MeVz6sA
+.youtube.com	TRUE	/	TRUE	1783499524	VISITOR_PRIVACY_METADATA	CgJJThIEGgAgZg%3D%3D
+.youtube.com	TRUE	/	TRUE	0	YSC	vXZIInhQMR0
+.youtube.com	TRUE	/	TRUE	1783499524	__Secure-ROLLOUT_TOKEN	CMueitTIqbmZrAEQg6avnPnNkAMYs_yM4IX-kQM%3D
+")  # required (paste link)
 API_URL = getenv("API_URL")        # optional
 VIDEO_API_URL = getenv("VIDEO_API_URL")  # optional
 API_KEY = getenv("API_KEY")        # optional
